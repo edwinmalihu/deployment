@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   gateway:
-    image: edwinmalihu/ssg:gateway-service-0.0.2
+    image: edwinmalihu/ssg:gateway-service-0.0.3
     environment: 
       POSTGRES_HOST: postgres
       POSTGRES_DB: synapsis
